@@ -1,0 +1,40 @@
+
+.account {
+  vertical-align: middle;
+  margin-top: 7%;
+}
+input.form-control, .btn {
+  background: transparent;
+  height: 50px;
+  color: rgba(1, 1, 1, 0.4) !important;
+  border: 1px solid rgba(2, 2, 2, 0.8);
+  background: rgba(2, 2, 2, 0.08);
+  border-radius: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+@media (prefers-reduced-motion: reduce) {
+  .form-control {
+    -webkit-transition: none;
+    -o-transition: none;
+    transition: none;
+  }
+}
+.form-control:hover,
+.form-control:focus, .pass:hover, .pass input:focus {
+  background: transparent;
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-color: rgba(11, 11, 11, 0.4);
+}
+.form-control:focus, .pass input:focus {
+  border-color: rgba(11, 11, 11, 0.4);
+}
+
+textarea.form-control {
+  height: inherit !important;
+}

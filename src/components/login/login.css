@@ -1,0 +1,152 @@
+a {
+  -webkit-transition: 0.3s all ease;
+  -o-transition: 0.3s all ease;
+  transition: 0.3s all ease;
+  color: #dc3545;
+}
+a:hover,
+a:focus {
+  text-decoration: none !important;
+  outline: none !important;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.login {
+  vertical-align: middle;
+  margin-top: 7%;
+}
+.login .pass, .login input[type='email'], .login .btn {
+  background: transparent;
+  height: 50px;
+  color: rgba(1, 1, 1, 0.4) !important;
+  background: rgba(2, 2, 2, 0.08);
+  border-radius: 40px;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+.login .pass input, .login .pass span {
+  display: inline-block;
+  height: 50px;
+  vertical-align: middle;
+}
+.login .form-control {
+  background: transparent;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+@media (prefers-reduced-motion: reduce) {
+  .form-control {
+    -webkit-transition: none;
+    -o-transition: none;
+    transition: none;
+  }
+}
+.login .form-control:hover,
+.login .form-control:focus, .login .pass:hover, .login .pass .form-control:focus {
+  background: transparent;
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-color: rgba(11, 11, 11, 0.4);
+}
+.login .form-control:focus {
+  border-color: rgba(11, 11, 11, 0.4);
+}
+
+textarea.form-control {
+  height: inherit !important;
+}
+
+.btn {
+  cursor: pointer;
+  border-radius: 40px;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+  font-size: 15px;
+}
+.btn:hover,
+.btn:active,
+.btn:focus {
+  outline: none;
+}
+.login .btn.btn-primary {
+  background: #dc3545 !important;
+  border: 1px solid #dc3545 !important;
+  color: #fff !important;
+}
+.btn.btn-primary:hover {
+  border: 1px solid #dc3545;
+  background: transparent;
+  color: #dc3545;
+}
+.btn.btn-primary.btn-outline-primary {
+  border: 1px solid #dc3545;
+  background: transparent;
+  color: #dc3545;
+}
+.btn.btn-primary.btn-outline-primary:hover {
+  border: 1px solid transparent;
+  background: #dc3545;
+  color: rgba(0, 0, 0, 0.9);
+}
+
+/* #dc3545; */
+.heading-section {
+  font-size: 28px;
+  color: rgba(0, 0, 0, 0.9);
+}
+
+.login-wrap {
+  position: relative;
+  color: rgba(0, 0, 0, 0.9);
+  border: 2px grey solid;
+  border-radius: 10px;
+}
+.login-wrap .social {
+  width: 100%;
+}
+
+.field-icon {
+  position: relative;
+  left: calc(100% - 28px);
+  top: -78%;
+  width: 10px;
+  vertical-align: middle;
+  cursor: pointer;
+  color: rgba(0, 0, 0, 0.9) !important;
+}
+
+.login .checkbox-wrap {
+  display: block;
+  text-align: center;
+  position: relative;
+  padding-left: 25px;
+  width: fit-content;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.login .checkbox-wrap input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.login .checkmark {
+  position: absolute;
+  font-weight: bold;
+  top: 0;
+  left: 0;
+}
+
+.login .checkbox-primary {
+  color: #dc3545;
+}
